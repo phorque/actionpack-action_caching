@@ -10,4 +10,4 @@ module ActionController
   end
 end
 
-ActionController::Base.send(:include, ActionController::Caching::Actions)
+ActionController::API.send(:include, ActionController::Caching::Actions)
